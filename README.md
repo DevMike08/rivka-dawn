@@ -72,3 +72,6 @@ To test this implementation locally, follow these steps:
 2. Run the development server:
    ```bash
    shopify theme dev
+3. Open the Theme Editor (Customizer) on a Collection Page.
+4. Add the "Collection Carousel" section from the "Carousel" category.
+5. Add multiple blocks and verify responsiveness by resizing the browser window.
