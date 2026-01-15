@@ -16,14 +16,14 @@ To ensure the highest standards of professional documentation, clarity, and accu
 
 ## ✨ Features
 
-- Custom section compatible with **Shopify Theme OS 2.0**
-- Supports **0 / 1 / N slides** without breaking layout or functionality
-- Uses **Swiper.js** for carousel behavior
-- Fully responsive with `srcset` and `sizes`
-- Slide-level image override with fallback to collection featured image
-- Shopify-native placeholder when no image is available
-- Configurable through the Theme Editor (blocks & settings)
-- Clean, maintainable, and well-structured code
+- **Section Name:** Identified as **Collection Carousel** in the Theme Editor.
+- **Categorization:** Organized under the **"Carousel"** category for easy discovery.
+- **Template Restriction:** Exclusively available for **Collection templates**, ensuring a contextual and relevant merchant experience.
+- **Shopify Theme OS 2.0:** Fully compatible with modular theme architecture.
+- **Dynamic Content:** Supports **0 / 1 / N slides** with smart initialization logic.
+- **UX Focused:** Includes an empty state message for merchants and 3 default blocks for immediate visualization.
+- **Swiper.js Integration:** High-performance carousel behavior with touch support.
+- **Optimized Images:** Responsive rendering using `srcset`, `sizes`, and intelligent fallbacks.
 
 ---
 
