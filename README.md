@@ -21,7 +21,7 @@ To ensure the highest standards of professional documentation, clarity, and accu
 - **Dynamic Content:** Supports **0 / 1 / N slides** with smart initialization logic.
 - **UX Focused:** Includes an empty state message for merchants and 4 default blocks for immediate visualization.
 - **Swiper.js Integration:** High-performance carousel behavior with touch support.
-- **Optimized Images:** Responsive rendering using `srcset`, `sizes`, and intelligent fallbacks.
+- **Optimized Images:** Responsive rendering using 'srcset', 'sizes', and intelligent fallbacks.
 
 ---
 
@@ -42,7 +42,7 @@ To ensure performance and visual consistency, image rendering follows this prior
 
 1. Slide custom image override.
 2. Selected collection featured image.
-3. Shopify default image placeholder (`placeholder_svg_tag`).
+3. Shopify default image placeholder ('placeholder_svg_tag').
 
 ---
 
