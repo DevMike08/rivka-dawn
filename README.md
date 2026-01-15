@@ -6,11 +6,11 @@ This section renders a responsive collection carousel using Shopify Theme OS 2.0
 
 ---
 
-## ✍️ Authorship and Credits
+## ✍️ Authorship & Disclosure
 
-The project description and criteria within this documentation were established by the author, **Miguel Ángel Escobar Ocampo**.
+This project and its technical criteria were entirely conceived and developed by **Miguel Ángel Escobar Ocampo**. 
 
-To ensure a professional structure, technical clarity, and accurate translation for the reviewer, **Artificial Intelligence** was utilized as a tool for drafting, translating, and refining each point of this project.
+To ensure the highest standards of professional documentation, clarity, and accurate English translation for the reviewer, **AI tools were leveraged** to refine the structure and phrasing of this README.
 
 ---
 
