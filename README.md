@@ -6,6 +6,14 @@ This section renders a responsive collection carousel using Shopify Theme OS 2.0
 
 ---
 
+## ✍️ Authorship and Credits
+
+The project description and criteria within this documentation were established by the author, **Miguel Ángel Escobar Ocampo**.
+
+To ensure a professional structure, technical clarity, and accurate translation for the reviewer, **Artificial Intelligence** was utilized as a tool for drafting, translating, and refining each point of this project.
+
+---
+
 ## ✨ Features
 
 - Custom section compatible with **Shopify Theme OS 2.0**
