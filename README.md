@@ -51,8 +51,8 @@ To ensure performance and visual consistency, image rendering follows this prior
 Following the technical requirements, the layout adapts to the viewport:
 
 - **Mobile (< 768px):** 1 element per view.
-- **Medium (768px - 1023px):** 3 elements per view.
-- **Large (>= 1024px):** 4 elements per view.
+- **Medium (768px - 1023px):** 4 elements per view.
+- **Large (>= 1024px):** 6 elements per view.
 
 ---
 
