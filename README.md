@@ -19,7 +19,7 @@ To ensure the highest standards of professional documentation, clarity, and accu
 - **Template Restriction:** Exclusively available for **Collection templates**, ensuring a contextual and relevant merchant experience.
 - **Shopify Theme OS 2.0:** Fully compatible with modular theme architecture.
 - **Dynamic Content:** Supports **0 / 1 / N slides** with smart initialization logic.
-- **UX Focused:** Includes an empty state message for merchants and 3 default blocks for immediate visualization.
+- **UX Focused:** Includes an empty state message for merchants and 4 default blocks for immediate visualization.
 - **Swiper.js Integration:** High-performance carousel behavior with touch support.
 - **Optimized Images:** Responsive rendering using `srcset`, `sizes`, and intelligent fallbacks.
 
@@ -51,8 +51,8 @@ To ensure performance and visual consistency, image rendering follows this prior
 Following the technical requirements, the layout adapts to the viewport:
 
 - **Mobile (< 768px):** 1 element per view.
-- **Medium (768px - 1023px):** 4 elements per view.
-- **Large (>= 1024px):** 6 elements per view.
+- **Medium (768px - 1023px):** 3 elements per view.
+- **Large (>= 1024px):** 4 elements per view.
 
 ---
 
