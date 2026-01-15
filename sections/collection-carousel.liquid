@@ -71,6 +71,13 @@
       <div class="swiper-button-next" data-carousel-next></div>
     </div>
   </div>
+  {% elsif request.design_mode %}
+  <div class="collection-carousel page-width">
+    <div class="carousel-empty-state" style="text-align: center; padding: 40px; border: 2px dashed #ccc; border-radius: 8px;">
+      <h2 style="margin-bottom: 10px;">Collection Carousel</h2>
+      <p>This section is currently empty. Please <strong>add slides</strong> in the sidebar to visualize the carousel.</p>
+    </div>
+  </div>
 {% endif %}
 
 {{ 'collection-carousel.css' | asset_url | stylesheet_tag }}
@@ -132,7 +139,22 @@
   ],
   "presets": [
     {
-      "name": "Collection Carousel"
+      "name": "Collection Carousel",
+      "category": "Carousel",
+      "blocks": [
+        {
+          "type": "slide"
+        },
+        {
+          "type": "slide"
+        },
+        {
+          "type": "slide"
+        },
+        {
+          "type": "slide"
+        }
+      ]
     }
   ],
   "templates": ["collection"]

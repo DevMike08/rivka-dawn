@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "banner": {
@@ -13,20 +22,124 @@
       "settings": {
         "products_per_page": 16,
         "columns_desktop": 4,
+        "columns_mobile": "2",
+        "color_scheme": "",
         "image_ratio": "adapt",
+        "image_shape": "default",
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
+        "quick_add": "none",
         "enable_filtering": true,
+        "filter_type": "horizontal",
         "enable_sorting": true,
-        "columns_mobile": "2",
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "collection_carousel_xVzLjA": {
+      "type": "collection-carousel",
+      "blocks": {
+        "slide_YJ4why": {
+          "type": "slide",
+          "settings": {
+            "title": "Collection title",
+            "description": "Short description for this collection",
+            "url": "",
+            "collection": ""
+          }
+        },
+        "slide_3E4ADb": {
+          "type": "slide",
+          "settings": {
+            "title": "Collection title",
+            "description": "Short description for this collection",
+            "url": "",
+            "collection": ""
+          }
+        },
+        "slide_7j7FaX": {
+          "type": "slide",
+          "settings": {
+            "title": "Collection title",
+            "description": "Short description for this collection",
+            "url": "",
+            "collection": ""
+          }
+        },
+        "slide_fLT7zD": {
+          "type": "slide",
+          "settings": {
+            "title": "Collection title",
+            "description": "Short description for this collection",
+            "url": "",
+            "collection": ""
+          }
+        },
+        "slide_mQkzkP": {
+          "type": "slide",
+          "settings": {
+            "title": "Collection title",
+            "description": "Short description for this collection",
+            "url": "",
+            "collection": ""
+          }
+        },
+        "slide_mrxmXN": {
+          "type": "slide",
+          "settings": {
+            "title": "Collection title",
+            "description": "Short description for this collection",
+            "url": "",
+            "collection": ""
+          }
+        },
+        "slide_NEyEyE": {
+          "type": "slide",
+          "settings": {
+            "title": "Collection title",
+            "description": "Short description for this collection",
+            "url": "",
+            "collection": ""
+          }
+        },
+        "slide_e77MkH": {
+          "type": "slide",
+          "settings": {
+            "title": "Collection title",
+            "description": "Short description for this collection",
+            "url": "",
+            "collection": ""
+          }
+        },
+        "slide_p9DVXc": {
+          "type": "slide",
+          "settings": {
+            "title": "Collection title",
+            "description": "Short description for this collection",
+            "url": "",
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_YJ4why",
+        "slide_3E4ADb",
+        "slide_7j7FaX",
+        "slide_fLT7zD",
+        "slide_mQkzkP",
+        "slide_mrxmXN",
+        "slide_NEyEyE",
+        "slide_e77MkH",
+        "slide_p9DVXc"
+      ],
+      "name": "Collection Carousel",
+      "settings": {}
     }
   },
   "order": [
     "banner",
-    "product-grid"
+    "product-grid",
+    "collection_carousel_xVzLjA"
   ]
 }
