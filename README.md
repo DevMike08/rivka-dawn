@@ -1,8 +1,6 @@
 # Collection Carousel — Shopify Theme OS 2.0
 
-Custom Shopify section developed as part of a technical test.
-
-This section renders a responsive collection carousel using Shopify Theme OS 2.0 standards, Liquid best practices, and Swiper.js for interaction.
+Custom Shopify section developed as part of a technical test. [cite_start]This section renders a responsive collection carousel using Shopify Theme OS 2.0 standards, Liquid best practices, and Swiper.js for interaction[cite: 3, 5, 6].
 
 ---
 
@@ -16,80 +14,61 @@ To ensure the highest standards of professional documentation, clarity, and accu
 
 ## ✨ Features
 
-- **Section Name:** Identified as **Collection Carousel** in the Theme Editor.
+- [cite_start]**Section Name:** Identified as **Collection Carousel** in the Theme Editor[cite: 8].
 - **Categorization:** Organized under the **"Carousel"** category for easy discovery.
-- **Template Restriction:** Exclusively available for **Collection templates**, ensuring a contextual and relevant merchant experience.
-- **Shopify Theme OS 2.0:** Fully compatible with modular theme architecture.
-- **Dynamic Content:** Supports **0 / 1 / N slides** with smart initialization logic.
+- [cite_start]**Template Restriction:** Exclusively available for **Collection templates**, ensuring a contextual and relevant merchant experience.
+- [cite_start]**Shopify Theme OS 2.0:** Fully compatible with modular theme architecture[cite: 3].
+- [cite_start]**Dynamic Content:** Supports **0 / 1 / N slides** with smart initialization logic[cite: 19].
 - **UX Focused:** Includes an empty state message for merchants and 3 default blocks for immediate visualization.
-- **Swiper.js Integration:** High-performance carousel behavior with touch support.
-- **Optimized Images:** Responsive rendering using `srcset`, `sizes`, and intelligent fallbacks.
+- [cite_start]**Swiper.js Integration:** High-performance carousel behavior with touch support[cite: 6].
+- [cite_start]**Optimized Images:** Responsive rendering using `srcset`, `sizes`, and intelligent fallbacks[cite: 29, 30].
 
 ---
 
 ## 🧱 Section Structure
 
-Each slide is configured as a **block**, allowing merchants to:
+[cite_start]Each slide is configured as a **block**, allowing merchants to[cite: 9]:
 
-- Select a collection
-- Optionally override the image
-- Customize title and description
-- Define a custom URL (fallbacks to collection URL)
+- [cite_start]**Collection Picker:** Select a specific collection[cite: 15].
+- [cite_start]**Image Override:** Optionally upload a custom image (fallback to collection's featured image)[cite: 14, 18].
+- [cite_start]**Content:** Customize title and description[cite: 11, 12].
+- [cite_start]**Dynamic URL:** Define a custom destination (fallbacks to the collection's URL)[cite: 13, 17].
 
 ---
 
 ## 🖼️ Image Handling Logic
 
-Image rendering follows this priority:
+[cite_start]To ensure performance and visual consistency, image rendering follows this priority[cite: 32]:
 
-1. Slide custom image
-2. Selected collection featured image
-3. Shopify default image placeholder (`placeholder_svg_tag`)
-
-This ensures the section never breaks visually, even when images are missing.
+1. [cite_start]Slide custom image override[cite: 14].
+2. [cite_start]Selected collection featured image[cite: 18].
+3. Shopify default image placeholder (`placeholder_svg_tag`).
 
 ---
 
 ## 📱 Responsive Behavior
 
-- Images use `srcset` and `sizes` for optimized loading
-- Layout adapts across mobile, tablet, and desktop
-- Placeholder SVG is wrapped and styled to behave responsively like real images
-- Carousel initializes **only when more than one slide exists**
+[cite_start]Following the technical requirements, the layout adapts to the viewport:
+
+- [cite_start]**Mobile (< 768px):** 1 element per view[cite: 22, 26].
+- [cite_start]**Medium (768px - 1023px):** 4 elements per view[cite: 23, 27].
+- [cite_start]**Large (>= 1024px):** 6 elements per view[cite: 24, 28].
 
 ---
 
-## 🧪 Edge Cases Covered
+## 🛠️ Tech Stack & Decisions
 
-- No blocks added → section does not render
-- Single slide → static layout, no carousel initialization
-- Multiple slides → full Swiper carousel behavior
-- Missing images → graceful fallback with consistent layout
-
----
-
-## 🛠️ Tech Stack
-
-- Shopify Liquid
-- Shopify Theme OS 2.0
-- Swiper.js
-- Vanilla JavaScript
-- CSS (modern layout techniques)
+- [cite_start]**Shopify Liquid:** For server-side rendering and schema configuration[cite: 3].
+- [cite_start]**Swiper.js:** Chosen as the core library due to its **excellent weight-to-benefit ratio** (performance/feature balance) and native touch-support for mobile devices[cite: 6, 39].
+- [cite_start]**Vanilla JavaScript:** To initialize the carousel only when multiple slides are detected, optimizing browser resources[cite: 32].
 
 ---
 
-## 🚀 How to Test
+## 🚀 How to Test (Shopify CLI)
 
-1. Add the section in the Theme Editor
-2. Create 0, 1, or multiple blocks
-3. Test slides with:
-   - custom image
-   - no image
-   - collections without featured images
-4. Resize the viewport to validate responsive behavior
+[cite_start]To test this implementation locally, follow these steps[cite: 38]:
 
----
-
-## 📌 Notes
-
-This implementation follows Shopify best practices and focuses on robustness, maintainability, and merchant experience.
+1. Clone the repository and navigate to the project folder.
+2. Run the development server:
+   ```bash
+   shopify theme dev
